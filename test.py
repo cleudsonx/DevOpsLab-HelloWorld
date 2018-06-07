@@ -26,4 +26,5 @@ class Test(unittest.TestCase):
 if __name__ == "__main__":
     print('INICIANDO OS TESTES')
     print('----------------------------------------------------------------------')
+    print('------------ AGUARDE A FINALIZAÇÃO DO PROCESSO DE BUILD --------------')
     unittest.main(verbosity=2)
