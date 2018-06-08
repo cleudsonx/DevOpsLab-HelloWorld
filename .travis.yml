@@ -1,3 +1,6 @@
+# Sistema Operacional
+os: windows
+
 # Linguagem Utilizada para Desenvolver a Aplicação
 language: python
 
