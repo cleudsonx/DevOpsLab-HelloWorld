@@ -180,7 +180,6 @@ class _AssertRaisesBaseContext(_BaseTestCaseContext):
             # bpo-23890: manually break a reference cycle
             self = None
 
-
 class _AssertRaisesContext(_AssertRaisesBaseContext):
     """A context manager used to implement TestCase.assertRaises* methods."""
 
