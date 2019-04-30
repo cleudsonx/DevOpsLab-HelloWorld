@@ -6,7 +6,7 @@ language: python
 
 # Versão que a aplicação suporta.
 python:
-  - "3.6.5"
+  - "3.7.3"
 
 # Faz a instalação com Sudo, para ter privilégio de Super Usuário.
 sudo: required
@@ -22,6 +22,6 @@ script:
 # Defini que o processo de Deploy será na Plataforma Heroku. É necessário informar o nome da APP criada no Heroku
 deploy:
   provider: heroku
-  api-key: 
-    secure: $HEROKU_API_KEY
+  api-key: 12345678
+    secure: $HEROKU_API_KEY2
   app: devopslab2018
